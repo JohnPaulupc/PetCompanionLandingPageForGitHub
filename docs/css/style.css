@@ -165,14 +165,21 @@ h2{
 .item {
     display: block;
     max-width: 80%;
-    height: auto;
     margin: auto;
+    height: auto;
 }
 
 .gallery{
     padding-top: 1vh;
+    padding-bottom: 1vh;
+    height: 35vh;
+    width: auto;
 }
-
+.team_pic {
+    padding-top: 1vh;
+    height: 20vh;
+    width: auto;
+}
 .team {
     height: 70vh;
 }
@@ -275,4 +282,10 @@ footer p {
     font-family: 'Roboto',sans-serif;
 }
 
+.leather {
+    border-color: #9d7463;
+}
 
+.forrest_green {
+    border-color: #455954;
+}
