@@ -280,6 +280,7 @@ footer p {
 .grid-wrapper3 p{
     color: #565c6e;
     font-family: 'Roboto',sans-serif;
+    align-content: center;
 }
 
 .leather {
