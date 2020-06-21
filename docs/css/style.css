@@ -6,11 +6,11 @@ body {
 }
 
 body::-webkit-scrollbar{
-    width: 0.25rem;
+    width: 0.5rem;
 }
 
 body::-webkit-scrollbar-track{
-    background-color: white;
+    background-color: #455954;
 }
 
 body::-webkit-scrollbar-thumb{
@@ -90,11 +90,11 @@ body::-webkit-scrollbar:horizontal {
 }
 
 h1 {
-    color: #565c6e;
+    color: #3c3c3c;
 }
 
 h2{
-    color: #565c6e;
+    color: #3c3c3c;
     text-align: center;
 }
 
@@ -105,6 +105,9 @@ h2{
     grid-gap: 0;
 }
 
+#Reviews > .grid-wrapper {
+    margin-top: 100px;
+}
 .grid-wrapper2{
     display: grid;
     grid-template-columns:1fr 1fr ;
@@ -148,7 +151,7 @@ h2{
 }
 
 .showcase h1 {
-    color: darkgrey;
+    color: #3c3c3c;
 }
 
 .showcase h2{
@@ -189,11 +192,11 @@ h2{
 }
 
 .card > h3 {
-    color:dimgrey;
+    color: #3c3c3c;
 }
 
 .card > p {
-    color:grey;
+    color: #3c3c3c;
     font-family: 'Roboto',sans-serif;
 }
 
@@ -201,7 +204,9 @@ h2{
     background-color: white;
     margin: 10%;
 }
-
+#Reviews > .card {
+    margin-top: 200px;
+}
 .zone {
     color: #FFFFFF;
     font-size: 1em;
@@ -252,7 +257,7 @@ footer {
 
 footer p {
     text-align: center;
-    color: #565c6e;
+    color: #3c3c3c;
     font-family: 'Roboto',sans-serif;
 }
 
@@ -261,16 +266,23 @@ footer p {
     padding-left: 30vw;
     grid-template-columns:100px 200px;
     grid-template-rows: 1fr;
+    align-content: center;
     grid-gap: 0;
-    align-items: center;
     padding-top: 30px;
 }
 
-.grid-wrapper2 p{
-    color: #565c6e;
-    font-family: 'Roboto',sans-serif;
-}
 
+.grid-wrapper2 p{
+    color: #3c3c3c;
+    font-family: 'Roboto',sans-serif;
+    margin-top: auto;
+
+}
+.flex-contact > p {
+    color: #3c3c3c;
+    font-family: 'Roboto',sans-serif;
+    margin-top: auto;
+}
 .grid-wrapper3 {
     display: grid;
     grid-template-columns:100px 300px 100px;
@@ -281,8 +293,36 @@ footer p {
     padding-left: 20vw;
 }
 
+.premium-container{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-top: 100px;
+}
+.premium-container > .icon {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.premium-container > p {
+    margin-right: auto;
+    margin-left: 25px;
+}
+.flex-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-contact > .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
 .grid-wrapper3 p{
-    color: #565c6e;
+    color: #3c3c3c;
     font-family: 'Roboto',sans-serif;
     align-content: center;
 }
