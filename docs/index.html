@@ -5,6 +5,7 @@
     <title>Pet Companion Landing Page</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="/css/all.css">
+    <script type="text/javascript" src="scripts.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -113,11 +114,21 @@
         <div class="showcase wth_bot_borders forrest_green">
             <header>
                 <h2>Premium</h2>
-                <div class="premium-container">
+                <div id="premium-container">
                     <img src="img/famoneycheck.png" alt="premium" class="icon">
                     <p>Apoyanos a un precio bajo y elimina los anuncios de la app.</p>
                 </div>
-                <img src="img/LearnMoreBadge.png" alt="Learn more" class="learnMoreIcon" style="margin-top: 100px">
+                <div id="hidden_plans" class="grid-wrapper-price">
+                    <div class="card zone wth_borders">
+                        <h3>S/. 9.99</h3>
+                        <p>Monthly</p>
+                    </div>
+                    <div class="card zone wth_borders">
+                        <h3>S/. 27.99</h3>
+                        <p>One Time Purchase</p>
+                    </div>
+                </div>
+                <img src="img/LearnMoreBadge.png" onclick="ShowPlans()"  alt="Learn more" class="learnMoreIcon" style="margin-top: 100px">
             </header>
         </div>
     </div>
@@ -188,9 +199,9 @@
                     <p>SystemXplore@gmail.com</p>
                 </div>
                 <div class="flex-contact">
-                    <img src="img/icons8-instagram-96.png" alt="instagram" class="icon">
-                    <img src="img/icons8-facebook-96.png" alt="facebook" class="icon">
-                    <img src="img/icons8-twitter-96.png" alt="twitter" class="icon">
+                    <a href="https://www.instagram.com/"><img src="img/icons8-instagram-96.png" alt="instagram" class="icon"></a>
+                    <a href="https://www.facebook.com/"><img src="img/icons8-facebook-96.png" alt="facebook" class="icon"></a>
+                    <a href="https://twitter.com/"><img src="img/icons8-twitter-96.png" alt="twitter" class="icon"></a>
                 </div>
             </header>
         </div>
