@@ -416,3 +416,41 @@ footer p {
         flex-direction: column;
     }
 }
+
+
+p {
+    padding: 5px;
+    color: black;
+}
+
+
+body{
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+}
+
+.zone:hover{
+    box-shadow: rgba(29, 21, 21, 0.92) 0px 5px 15px,inset rgb(17, 17, 16) 0px -10px 20px;
+}
+.main-nav
+{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 0.6em;
+
+}
+a:hover
+{
+    color: #0ea8d4;
+}
+.push{
+    margin-left: auto;
+}
+li{
+    padding: 20px;
+}
+a{
+    color: #fcfcfc;
+    text-decoration: none;
+}
